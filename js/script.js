@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 
 	$.ajax({
-	  url : 'https://api.geonet.org.nz/intensity?type=measured',
+	  url : 'https://api.geonet.org.nz/intensity?type=reported',
 		type :'GET',
 		dataType :'json',
 		success:function(data){
